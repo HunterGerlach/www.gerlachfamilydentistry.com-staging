@@ -8,7 +8,7 @@ export default function Main() {
           <div className="max-w-8xl mx-auto inline-block items-center p-3 pt-0 lg:flex lg:flex-wrap lg:pt-4">
             <div className="lg:w-3/6">
               <h2 className="max-w-xl lg:text-[4.2em] text-3xl font-bold leading-none text-black inline-block">
-                Brighten Your Smile and Strengthen Your Family's Oral Health
+                Brighten Your Smile and Strengthen Your Family&apos;s Oral Health
               </h2>
   
               <p className="mt-6 max-w-2xl text-xl font-semibold text-[#404040]">
