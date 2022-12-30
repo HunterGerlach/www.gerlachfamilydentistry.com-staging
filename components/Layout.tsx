@@ -8,13 +8,12 @@ export default function Main() {
           <div className="max-w-8xl mx-auto inline-block items-center p-3 pt-0 lg:flex lg:flex-wrap lg:pt-4">
             <div className="lg:w-3/6">
               <h2 className="max-w-xl lg:text-[4.2em] text-3xl font-bold leading-none text-black inline-block">
-                Vel quis feugiat pharetra diam.
+                Brighten Your Smile and Strengthen Your Family's Oral Health
               </h2>
   
               <p className="mt-6 max-w-2xl text-xl font-semibold text-[#404040]">
-                Lorem ipsum urna, consectetur adipiscing elit. Urna risus
-                hendrerit dignissim duis fringilla sit. Lacus porttitor neque
-                ipsum.
+                We understand the importance of maintaining good oral hygiene for the whole family. 
+                Our friendly and experienced team is here to provide personalized care and treatment to help you and your loved ones achieve and maintain bright and healthy smiles. 
               </p>
             </div>
             <div className="mb-20 mt-44 hidden w-full flex-col lg:mt-12 lg:inline-block lg:w-3/6">
@@ -29,7 +28,7 @@ export default function Main() {
               <div className="mx-auto px-5 py-24 lg:px-24">
                 <div className="my-10 flex w-full flex-col text-center">
                   <h2 className="mb-5 text-2xl font-bold text-black lg:text-3xl">
-                    In ullamcorper magna nunc, non molestie augue feugiat eget.
+                    We offer a range of services to meet the unique needs of every member of your family, from routine cleanings to more complex dental work. 
                   </h2>
                 </div>
                 <div
