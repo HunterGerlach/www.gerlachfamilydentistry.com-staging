@@ -135,6 +135,18 @@ body {
   background-color: #f9fbfb;
 }
 
+.bg-red {
+  background-color: #f56565;
+}
+
+.bg-green {
+  background-color: #68d391;
+}
+
+.bg-yellow {
+  background-color: #f6e05e;
+}
+
 .Grotesk {
   font-family: "Space Grotesk", sans-serif;
 }
