@@ -3,6 +3,7 @@ import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from '../styles/Home.module.css'
 import Header from "../components/Header";
+import Hero from "../components/Hero";
 import Layout from "../components/Layout";
 import Footer from "../components/Footer";
 
@@ -22,6 +23,7 @@ export default function Home() {
       </h1>
 
       <Header />
+      <Hero />
       <Layout />
       <Footer />
 
