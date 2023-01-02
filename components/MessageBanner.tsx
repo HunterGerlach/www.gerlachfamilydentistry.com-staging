@@ -19,9 +19,6 @@ export default function MessageBanner(props: Props) {
         banner?.classList.add("hidden");
     };
 
-    console.log(message);
-    console.log(id)
-
     return (
         <div
         // set the id to the value of the key prop passed in

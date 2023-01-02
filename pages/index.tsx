@@ -4,6 +4,7 @@ import Header from "../components/Header";
 import Layout from "../components/Layout";
 import Footer from "../components/Footer";
 import ContactTooth from "../components/ContactTooth";
+import Hero from '../components/Hero';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -17,6 +18,7 @@ export default function Home() {
         <link rel="icon" href="./favicon.ico" />
       </Head>
       <Header />
+      <Hero />
       <Layout />
       <Footer />
 

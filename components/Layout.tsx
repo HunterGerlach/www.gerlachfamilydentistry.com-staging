@@ -5,7 +5,7 @@ export default function Main() {
     return (
       <div className="grotesk max-w-8xl mx-auto">
         <section className="w-full text-black">
-          <div className="max-w-8xl mx-auto inline-block items-center p-3 pt-0 lg:flex lg:flex-wrap lg:pt-4">
+          <div id="about-us" className="max-w-8xl mx-auto inline-block items-center p-3 pt-0 lg:flex lg:flex-wrap lg:pt-4">
             <div className="lg:w-3/6">
               <h2 className="max-w-xl lg:text-[4.2em] text-3xl font-bold leading-none text-black inline-block">
                 Brighten Your Smile and Strengthen Your Family&apos;s Oral Health
@@ -16,13 +16,13 @@ export default function Main() {
               </p>
             </div>           
             <div className="mb-20 mt-44 hidden w-full flex-col lg:mt-12 lg:inline-block lg:w-3/6">
-              <img src="/images/placeholder.png" alt="Hero" />
+              <img src="https://picsum.photos/648/480?" alt="Hero" />
             </div>
             <div className="my-20 inline-block w-full flex-col lg:mt-0 lg:hidden lg:w-2/5">
-              <img src="/images/placeholder.png" alt="image" />
+              <img src="https://picsum.photos/648/480?" alt="image" />
             </div>
           </div>
-          <div className="mt-0 bg-white lg:mt-40">
+          <div id="services" className="mt-0 bg-white lg:mt-40">
             <div className="mx-auto">
               <div className="mx-auto px-5 py-24 lg:px-24">
                 <div className="my-10 flex w-full flex-col text-center">
@@ -39,42 +39,42 @@ export default function Main() {
                 >
                   <div className="hidden items-center justify-center lg:inline-block">
                     <img
-                      src="/images/segment.png"
+                      src="https://picsum.photos/648/480?"
                       alt="Segment"
                       className="block h-24 object-contain"
                     />
                   </div>
                   <div className="hidden items-center justify-center lg:inline-block">
                     <img
-                      src="/images/segment.png"
+                      src="https://picsum.photos/648/480?"
                       alt="Segment"
                       className="block h-24 object-contain"
                     />
                   </div>
                   <div className="flex items-center justify-center">
                     <img
-                      src="/images/segment.png"
+                      src="https://picsum.photos/648/480?"
                       alt="Segment"
                       className="block h-24 object-contain"
                     />
                   </div>
                   <div className="flex items-center justify-center">
                     <img
-                      src="/images/segment.png"
+                      src="https://picsum.photos/648/480?"
                       alt="Segment"
                       className="block h-24 object-contain"
                     />
                   </div>
                   <div className="hidden items-center justify-center lg:inline-block">
                     <img
-                      src="/images/segment.png"
+                      src="https://picsum.photos/648/480?"
                       alt="Segment"
                       className="block h-24 object-contain"
                     />
                   </div>
                   <div className="hidden items-center justify-center lg:inline-block">
                     <img
-                      src="/images/segment.png"
+                      src="https://picsum.photos/648/480?"
                       alt="Segment"
                       className="block h-24 object-contain"
                     />
@@ -109,7 +109,7 @@ export default function Main() {
                 px-5
               "
               >
-                <div className="mr-0 mb-6 w-full py-4 text-center lg:w-2/3">
+                <div id="reviews" className="mr-0 mb-6 w-full py-4 text-center lg:w-2/3">
                   <h2 className="mb-4 text-4xl font-bold sm:text-5xl">
                     Sem enim cursus orci at.
                   </h2>
@@ -135,7 +135,7 @@ export default function Main() {
                   lg:inline-block 
                   lg:w-4/6
                 "
-                  src="/images/placeholder.png"
+                  src="https://picsum.photos/648/480?"
                   alt="img"
                 />
   
@@ -149,13 +149,13 @@ export default function Main() {
                 lg:hidden
                 lg:w-4/6 
               "
-                  src="/images/placeholder.png"
+                  src="https://picsum.photos/648/480?"
                   alt="img"
                 />
               </div>
             </div>
           </div>
-          <div className="mx-auto px-5 pt-32 pb-24 lg:px-24">
+          <div id="invisalign" className="mx-auto px-5 pt-32 pb-24 lg:px-24">
             <div className="my-3 flex w-full flex-col text-left lg:text-center">
               <h2 className="bold mb-8 text-4xl font-bold leading-tight text-black lg:text-6xl">
                 Lorem ipsum elit sit unar,{" "}
@@ -187,7 +187,7 @@ export default function Main() {
             </div>
           </div>
           <div className="invisible mx-auto flex max-w-6xl p-3 pb-32 lg:visible lg:px-2">
-            <img src="/images/placeholder.png" alt="img" />
+            <img src="https://picsum.photos/648/480?" alt="img" />
           </div>
           <div className="bg-white text-black">
             <div className="mx-auto flex flex-col items-center px-5 pt-56 lg:flex-row">
@@ -203,13 +203,13 @@ export default function Main() {
                 </p>
               </div>
               <div className="lg:w-full lg:max-w-2xl">
-                <img src="/images/placeholder.png" alt="img" />
+                <img src="https://picsum.photos/648/480?" alt="img" />
               </div>
             </div>
             <div className="mt-32">
               <div className="mx-auto flex flex-col px-5 py-24 text-left lg:flex-row">
                 <div className="hidden lg:inline-block lg:w-full lg:max-w-xl">
-                  <img src="/images/placeholder.png" alt="img" />
+                  <img src="https://picsum.photos/648/480?" alt="img" />
                 </div>
                 <div className="flex flex-col pt-0 text-left lg:w-1/2 lg:flex-grow lg:items-start lg:pl-16 lg:pl-24 lg:pt-24">
                   <h2 className="mb-4 text-4xl font-bold leading-none sm:text-5xl">
@@ -222,7 +222,7 @@ export default function Main() {
                   </p>
                 </div>
                 <div className="inline-block lg:hidden lg:w-full lg:max-w-xl">
-                  <img src="/images/placeholder.png" alt="img" />
+                  <img src="https://picsum.photos/648/480?" alt="img" />
                 </div>
               </div>
             </div>
@@ -241,12 +241,12 @@ export default function Main() {
                 </div>
                 <div className="w-4/7 pr-12 lg:w-2/5">
                   <img
-                    src="/images/placeholder.png"
+                    src="https://picsum.photos/648/480?"
                     className="hidden object-cover object-center lg:inline-block"
                     alt="image"
                   />
                   <img
-                    src="/images/placeholder.png"
+                    src="https://picsum.photos/648/480?"
                     className="inline-block object-cover object-center lg:hidden"
                     alt="image"
                   />
@@ -265,7 +265,7 @@ export default function Main() {
                     accumsan arcu, aenean viverra penatibus quis. Laoreet.
                   </h3>
                 </div>
-                <img src="/images/placeholder.png" alt="img" />
+                <img src="https://picsum.photos/648/480?" alt="img" />
               </div>
             </div>
             <div className="text-black">
@@ -274,7 +274,7 @@ export default function Main() {
                   <img
                     className="rounded object-cover object-center"
                     alt="image"
-                    src="/images/placeholder1.png"
+                    src="https://picsum.photos/648/480?"
                   />
                 </div>
                 <div className="items-left flex flex-col pt-16 text-left lg:w-1/2 lg:flex-grow lg:items-start lg:pl-32 lg:pl-48 lg:text-left">
