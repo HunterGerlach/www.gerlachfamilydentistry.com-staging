@@ -1,5 +1,8 @@
 /* Typescript component to display a modern hero image with a title and subtitle */
 
+//imports
+import Image from "next/image";
+
 export default function Hero() {
   return (
     <div id="hero" className="relative bg-[#f9fbfb]">
