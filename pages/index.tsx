@@ -20,12 +20,14 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="./favicon.ico" />
       </Head>
-      <Header />
-      <Hero />
-      <Layout />
-      <Footer />
+      <div className="dark:bg-red">
+        <Header />
+        <Hero />
+        <Layout />
+        <Footer />
 
-      <ContactTooth />
+        <ContactTooth />
+      </div>
     </>
   );
 }

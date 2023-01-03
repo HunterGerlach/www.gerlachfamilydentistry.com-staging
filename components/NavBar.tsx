@@ -62,17 +62,17 @@ export default function NavBar() {
         </a>
         <a
           className="mt-2 inline-flex items-center px-4 py-3 text-lg font-semibold tracking-tighter text-black"
-          href="#invisalign"
-          onClick={smoothScroll}
-        >
-          Invisalign(?)
-        </a>
-        <a
-          className="mt-2 inline-flex items-center px-4 py-3 text-lg font-semibold tracking-tighter text-black"
           href="#existing-patients"
           onClick={smoothScroll}
         >
           Existing Patients
+        </a>
+        <a
+          className="mt-2 inline-flex items-center px-4 py-3 text-lg font-semibold tracking-tighter text-black"
+          href="#invisalign"
+          onClick={smoothScroll}
+        >
+          Invisalign(?)
         </a>
         <a
           className="bg-blue mt-2 inline-flex items-center px-8 py-3 text-lg font-semibold tracking-tighter text-white"
