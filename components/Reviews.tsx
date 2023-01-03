@@ -22,11 +22,11 @@ export default function Reviews() {
             maecenas diam risus sodales dictum eu. Eget cursus sit bibendum
             pulvinar faucibus vitae nam sed. Faucibus vel laoreet.
           </p>
-          <a href="/" className="underline-blue font-semibold">
+          <Link href="/" className="underline-blue font-semibold">
             Learn more
-          </a>
+          </Link>
         </div>
-        <img
+        <Image
           className="
                 lg:w-5/7
                 mb-40
@@ -41,7 +41,7 @@ export default function Reviews() {
           alt="img"
         />
 
-        <img
+        <Image
           className="
               mb-24
               inline-block
