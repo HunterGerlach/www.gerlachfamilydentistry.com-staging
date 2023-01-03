@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Invisalign() {
   return (
     <div id="invisalign" className="mx-auto px-5 pt-32 pb-24 lg:px-24">

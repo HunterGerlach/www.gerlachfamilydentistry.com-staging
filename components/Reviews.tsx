@@ -1,3 +1,6 @@
+import Image from "next/image";
+import Link from "next/link";
+
 export default function Reviews() {
   return (
     <div id="reviews" className="text-black">

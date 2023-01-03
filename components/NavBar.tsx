@@ -1,5 +1,7 @@
 // A react component that displays a navbar at the top of the page
 
+import Link from "next/link";
+
 export default function NavBar() {
   // a script to toggle the hamburger menu links both on and off when the hamburger button is pressed; hamburger button should remain visible when the menu is toggled on
   const toggleMenu = () => {
