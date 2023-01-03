@@ -32,55 +32,55 @@ export default function NavBar() {
       </div>
       {/* Navbar logo */}
       <div className="w-full text-center align-right block items-center xl:block mt-4 inline-block align-middle xl:inline-block">
-        <a href="/" className="align-middle text-3xl font-bold text-black">
+        <Link href="/" className="align-middle text-3xl font-bold text-black">
           Gerlach Family Dentistry
-        </a>
+        </Link>
       </div>
 
       {/* Navbar links */}
       <div className="w-full text-center align-right block items-center navigation hidden xl:block mt-4 inline-block align-middle xl:inline-block">
-        <a
+        <Link
           className="mt-2 inline-flex items-center px-4 py-3 text-lg font-semibold tracking-tighter text-black"
           href="#about-us"
           onClick={smoothScroll}
         >
           About Us
-        </a>
-        <a
+        </Link>
+        <Link
           className="mt-2 inline-flex items-center px-4 py-3 text-lg font-semibold tracking-tighter text-black"
           href="#services"
           onClick={smoothScroll}
         >
           Services
-        </a>
-        <a
+        </Link>
+        <Link
           className="mt-2 inline-flex items-center px-4 py-3 text-lg font-semibold tracking-tighter text-black"
           href="#reviews"
           onClick={smoothScroll}
         >
           Reviews
-        </a>
-        <a
+        </Link>
+        <Link
           className="mt-2 inline-flex items-center px-4 py-3 text-lg font-semibold tracking-tighter text-black"
           href="#existing-patients"
           onClick={smoothScroll}
         >
           Existing Patients
-        </a>
-        <a
+        </Link>
+        <Link
           className="mt-2 inline-flex items-center px-4 py-3 text-lg font-semibold tracking-tighter text-black"
           href="#invisalign"
           onClick={smoothScroll}
         >
           Invisalign
-        </a>
-        <a
+        </Link>
+        <Link
           className="bg-blue mt-2 inline-flex items-center px-8 py-3 text-lg font-semibold tracking-tighter text-white"
           href="#contact-us"
           onClick={smoothScroll}
         >
           Contact Us
-        </a>
+        </Link>
       </div>
     </div>
   );
