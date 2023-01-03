@@ -16,18 +16,18 @@ export default function Invisalign() {
         </h3>
       </div>
       <div className="flex w-full flex-row justify-center pt-24 text-center">
-        <a
+        <Link
           href="/"
           className="underline-blue px-8 text-xl font-semibold text-black"
         >
           Ut eleifend.
-        </a>
-        <a
+        </Link>
+        <Link
           href="/"
           className="underline-gray px-6 text-xl font-semibold text-gray-700"
         >
           Tempus in.
-        </a>
+        </Link>
       </div>
     </div>
   );

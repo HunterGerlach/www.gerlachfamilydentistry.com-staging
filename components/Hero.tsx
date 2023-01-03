@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <div id="hero" className="relative bg-[#f9fbfb]">
       <div className="absolute inset-0">
-        <img
+        <Image
           className="w-full h-full object-cover"
           src="https://picsum.photos/648/480?"
           alt=""
