@@ -18,42 +18,42 @@ export default function Services() {
                   lg:grid-cols-6"
           >
             <div className="hidden items-center justify-center lg:inline-block">
-              <img
+              <Image
                 src="https://picsum.photos/648/480?"
                 alt="Segment"
                 className="block h-24 object-contain"
               />
             </div>
             <div className="hidden items-center justify-center lg:inline-block">
-              <img
+              <Image
                 src="https://picsum.photos/648/480?"
                 alt="Segment"
                 className="block h-24 object-contain"
               />
             </div>
             <div className="flex items-center justify-center">
-              <img
+              <Image
                 src="https://picsum.photos/648/480?"
                 alt="Segment"
                 className="block h-24 object-contain"
               />
             </div>
             <div className="flex items-center justify-center">
-              <img
+              <Image
                 src="https://picsum.photos/648/480?"
                 alt="Segment"
                 className="block h-24 object-contain"
               />
             </div>
             <div className="hidden items-center justify-center lg:inline-block">
-              <img
+              <Image
                 src="https://picsum.photos/648/480?"
                 alt="Segment"
                 className="block h-24 object-contain"
               />
             </div>
             <div className="hidden items-center justify-center lg:inline-block">
-              <img
+              <Image
                 src="https://picsum.photos/648/480?"
                 alt="Segment"
                 className="block h-24 object-contain"
@@ -61,7 +61,7 @@ export default function Services() {
             </div>
           </div>
           <div className="my-12 flex w-full flex-col pl-8 text-center">
-            <a
+            <Link
               href="/"
               className="
                     underline-blue
@@ -73,7 +73,7 @@ export default function Services() {
                   "
             >
               Ut eleifend.
-            </a>
+            </Link>
           </div>
         </div>
       </div>
