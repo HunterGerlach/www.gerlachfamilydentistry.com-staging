@@ -42,6 +42,8 @@ export default function Reviews() {
               "
           src="https://picsum.photos/648/480?"
           alt="img"
+          width={648}
+          height={480}
         />
 
         <Image
@@ -56,6 +58,8 @@ export default function Reviews() {
             "
           src="https://picsum.photos/648/480?"
           alt="img"
+          width={648}
+          height={480}
         />
       </div>
     </div>

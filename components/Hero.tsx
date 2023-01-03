@@ -11,6 +11,8 @@ export default function Hero() {
           className="w-full h-full object-cover"
           src="https://picsum.photos/648/480?"
           alt=""
+          width={648}
+          height={480}
         />
         <div
           className="absolute inset-0 bg-[#f9fbfb]"
