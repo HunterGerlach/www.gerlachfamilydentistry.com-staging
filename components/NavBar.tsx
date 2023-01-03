@@ -72,7 +72,7 @@ export default function NavBar() {
           href="#invisalign"
           onClick={smoothScroll}
         >
-          Invisalign(?)
+          Invisalign
         </a>
         <a
           className="bg-blue mt-2 inline-flex items-center px-8 py-3 text-lg font-semibold tracking-tighter text-white"
