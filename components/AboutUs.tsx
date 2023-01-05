@@ -19,10 +19,20 @@ export default function AboutUs() {
         </p>
       </div>
       <div className="mb-20 mt-44 hidden w-full flex-col lg:mt-12 lg:inline-block lg:w-3/6">
-        <Image src="https://picsum.photos/648/480?" alt="Hero" />
+        <Image
+          src="https://picsum.photos/648/480?"
+          alt="Hero"
+          width={648}
+          height={480}
+        />
       </div>
       <div className="my-20 inline-block w-full flex-col lg:mt-0 lg:hidden lg:w-2/5">
-        <Image src="https://picsum.photos/648/480?" alt="image" />
+        <Image
+          src="https://picsum.photos/648/480?"
+          alt="image"
+          width={648}
+          height={480}
+        />
       </div>
     </div>
   );

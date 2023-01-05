@@ -39,50 +39,50 @@ export default function NavBar() {
         </Link>
       </div>
 
-      {/* Navbar links */}
+      {/* Navbar as */}
       <div className="w-full text-center align-right block items-center navigation hidden xl:block mt-4 inline-block align-middle xl:inline-block">
-        <Link
+        <a
           className="mt-2 inline-flex items-center px-4 py-3 text-lg font-semibold tracking-tighter text-black"
           href="#about-us"
           onClick={smoothScroll}
         >
           About Us
-        </Link>
-        <Link
+        </a>
+        <a
           className="mt-2 inline-flex items-center px-4 py-3 text-lg font-semibold tracking-tighter text-black"
           href="#services"
           onClick={smoothScroll}
         >
           Services
-        </Link>
-        <Link
+        </a>
+        <a
           className="mt-2 inline-flex items-center px-4 py-3 text-lg font-semibold tracking-tighter text-black"
           href="#reviews"
           onClick={smoothScroll}
         >
           Reviews
-        </Link>
-        <Link
+        </a>
+        <a
           className="mt-2 inline-flex items-center px-4 py-3 text-lg font-semibold tracking-tighter text-black"
           href="#existing-patients"
           onClick={smoothScroll}
         >
           Existing Patients
-        </Link>
-        <Link
+        </a>
+        <a
           className="mt-2 inline-flex items-center px-4 py-3 text-lg font-semibold tracking-tighter text-black"
           href="#invisalign"
           onClick={smoothScroll}
         >
           Invisalign
-        </Link>
-        <Link
+        </a>
+        <a
           className="bg-blue mt-2 inline-flex items-center px-8 py-3 text-lg font-semibold tracking-tighter text-white"
           href="#contact-us"
           onClick={smoothScroll}
         >
           Contact Us
-        </Link>
+        </a>
       </div>
     </div>
   );

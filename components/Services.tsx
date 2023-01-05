@@ -25,6 +25,8 @@ export default function Services() {
                 src="https://picsum.photos/648/480?"
                 alt="Segment"
                 className="block h-24 object-contain"
+                width={648}
+                height={480}
               />
             </div>
             <div className="hidden items-center justify-center lg:inline-block">
@@ -32,6 +34,8 @@ export default function Services() {
                 src="https://picsum.photos/648/480?"
                 alt="Segment"
                 className="block h-24 object-contain"
+                width={648}
+                height={480}
               />
             </div>
             <div className="flex items-center justify-center">
@@ -39,6 +43,8 @@ export default function Services() {
                 src="https://picsum.photos/648/480?"
                 alt="Segment"
                 className="block h-24 object-contain"
+                width={648}
+                height={480}
               />
             </div>
             <div className="flex items-center justify-center">
@@ -46,6 +52,8 @@ export default function Services() {
                 src="https://picsum.photos/648/480?"
                 alt="Segment"
                 className="block h-24 object-contain"
+                width={648}
+                height={480}
               />
             </div>
             <div className="hidden items-center justify-center lg:inline-block">
@@ -53,6 +61,8 @@ export default function Services() {
                 src="https://picsum.photos/648/480?"
                 alt="Segment"
                 className="block h-24 object-contain"
+                width={648}
+                height={480}
               />
             </div>
             <div className="hidden items-center justify-center lg:inline-block">
@@ -60,6 +70,8 @@ export default function Services() {
                 src="https://picsum.photos/648/480?"
                 alt="Segment"
                 className="block h-24 object-contain"
+                width={648}
+                height={480}
               />
             </div>
           </div>
