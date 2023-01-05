@@ -24,16 +24,16 @@ export default function Reviews() {
         <div className="max-w-9xl mx-auto flex flex-col items-center bg-gradient-to-r from-blue-200 to-blue-100 px-5 py-24 lg:flex-row">
           <div className="flex flex-col items-center pb-16 pl-0 text-center lg:mb-0 lg:w-1/2 lg:flex-grow lg:items-start lg:pl-12 lg:pr-24 lg:text-left">
             <h2 className="pb-4 text-2xl font-bold leading-tight lg:text-4xl">
-              "I am always blown away by the level of care and attention I
-              receive."
+              &quot;I am always blown away by the level of care and attention I
+              receive.&quot;
             </h2>
             <p className="text-md mb-8 lg:text-xl">
-              I have been going to Dr. Gerlach's office for years, and I am
+              I have been going to Dr. Gerlach&apos;s office for years, and I am
               always blown away by the level of care and attention I receive.
               From the moment I walk in the door, I feel welcomed and valued.
               The hygienists are gentle and thorough, and Dr. Gerlach is always
               willing to take the time to answer my questions and address my
-              concerns. I can't recommend this practice enough!
+              concerns. I can&apos;t recommend this practice enough!
             </p>
           </div>
           <div className="w-4/7 pr-12 lg:w-2/5">
@@ -67,12 +67,12 @@ export default function Reviews() {
           </div>
           <div className="flex flex-col pt-0 text-left lg:w-1/2 lg:flex-grow lg:items-start lg:pl-16 lg:pl-24 lg:pt-24">
             <h2 className="mb-4 text-4xl font-bold leading-none sm:text-5xl">
-              "They explained everything in a way she could understand and made
-              her feel comfortable and relaxed."
+              &quot;They explained everything in a way she could understand and
+              made her feel comfortable and relaxed.&quot;
             </h2>
             <p className="mb-8 font-semibold leading-relaxed text-black">
               My daughter was really nervous about getting her first filling,
-              but the team at Dr. Chip's office was amazing. They explained
+              but the team at Dr. Chip&apos;s office was amazing. They explained
               everything in a way she could understand and made her feel
               comfortable and relaxed. She even fell asleep during the
               procedure! I am so grateful to have found such a kind and
@@ -93,16 +93,17 @@ export default function Reviews() {
         <div className="max-w-9xl mx-auto flex flex-col items-center bg-gradient-to-r from-blue-200 to-blue-100 px-5 py-24 lg:flex-row">
           <div className="flex flex-col items-center pb-16 pl-0 text-center lg:mb-0 lg:w-1/2 lg:flex-grow lg:items-start lg:pl-12 lg:pr-24 lg:text-left">
             <h2 className="pb-4 text-2xl font-bold leading-tight lg:text-4xl">
-              "I barely felt a thing! They even gave me tips for how to take
-              better care of my teeth at home."
+              &quot;I barely felt a thing! They even gave me tips for how to
+              take better care of my teeth at home.&quot;
             </h2>
             <p className="text-md mb-8 lg:text-xl">
               I had been putting off getting my teeth cleaned for a while
               because I was worried about the pain and discomfort. But the team
-              at Dr. Jo Ellen's office was so gentle and gentle, I barely felt a
-              thing! They even gave me tips for how to take better care of my
-              teeth at home. I left feeling confident and motivated to take
-              better care of my oral health. Thank you, Dr. Jo Ellen and team!
+              at Dr. Jo Ellen&apos;s office was so gentle and gentle, I barely
+              felt a thing! They even gave me tips for how to take better care
+              of my teeth at home. I left feeling confident and motivated to
+              take better care of my oral health. Thank you, Dr. Jo Ellen and
+              team!
             </p>
           </div>
           <div className="w-4/7 pr-12 lg:w-2/5">

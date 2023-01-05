@@ -13,13 +13,13 @@ export default function PatientResources() {
       </div>
       <div className="flex w-full flex-col text-left lg:text-center">
         <h3 className="text-2xl text-black">
-          In this section, you'll find all the downloadable forms and
+          In this section, you&apos;ll find all the downloadable forms and
           information you need to make your next appointment a breeze. From new
-          patient paperwork to insurance forms, we've got you covered.
+          patient paperwork to insurance forms, we&apos;ve got you covered.
           <br className="hidden lg:inline-block" />
           Quickly and easily access all the documents you need from the comfort
-          of your own home. It's just one more way we're making your dental care
-          experience a breeze.
+          of your own home. It&apos;s just one more way we&apos;re making your
+          dental care experience a breeze.
         </h3>
       </div>
       <div className="flex w-full flex-row justify-center pt-24 text-center">

@@ -27,7 +27,7 @@ export default function AboutUs() {
           <span className="inline-dentist">Jo Ellen K. Gerlach, DMD</span>
           and{" "}
           <span className="inline-dentist">
-            Harold V. "Chip" Gerlach Jr., DMD
+            Harold V. &quot;Chip&quot; Gerlach Jr., DMD
           </span>
           , who have a passion for helping people achieve and maintain optimal
           oral health.
@@ -63,7 +63,7 @@ export default function AboutUs() {
           </span>
           <br />
           <span className="signature sig3">
-            <i>Harold V. "Chip" Gerlach Jr., DMD</i>
+            <i>Harold V. &quot;Chip&quot; Gerlach Jr., DMD</i>
           </span>
         </div>
       </div>
