@@ -67,14 +67,6 @@ export default function AboutUs() {
           </span>
         </div>
       </div>
-      <div className="my-20 inline-block w-full flex-col lg:mt-0 lg:hidden lg:w-2/5">
-        <Image
-          src="https://picsum.photos/648/480?"
-          alt="image"
-          width={648}
-          height={480}
-        />
-      </div>
     </div>
   );
 }

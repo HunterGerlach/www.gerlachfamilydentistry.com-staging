@@ -16,7 +16,8 @@ export default function Reviews() {
           is the go-to for top-notch treatment and personalized service. Patient
           testimonials offer a firsthand look at the care and attention our team
           provides. Find out what our satisfied patients have to say and why
-          they keep coming back for more.
+          they keep coming back for more. And if you know someone who is already
+          our patient, you can just ask them about their experience!
         </h3>
       </div>
       <div className="my-24 p-4 text-black">
@@ -30,7 +31,7 @@ export default function Reviews() {
               I have been going to Dr. Gerlach's office for years, and I am
               always blown away by the level of care and attention I receive.
               From the moment I walk in the door, I feel welcomed and valued.
-              The hygienists are gentle and thorough, and Dr. Smith is always
+              The hygienists are gentle and thorough, and Dr. Gerlach is always
               willing to take the time to answer my questions and address my
               concerns. I can't recommend this practice enough!
             </p>
@@ -71,7 +72,7 @@ export default function Reviews() {
             </h2>
             <p className="mb-8 font-semibold leading-relaxed text-black">
               My daughter was really nervous about getting her first filling,
-              but the team at Dr. Smith's office was amazing. They explained
+              but the team at Dr. Chip's office was amazing. They explained
               everything in a way she could understand and made her feel
               comfortable and relaxed. She even fell asleep during the
               procedure! I am so grateful to have found such a kind and
@@ -98,10 +99,10 @@ export default function Reviews() {
             <p className="text-md mb-8 lg:text-xl">
               I had been putting off getting my teeth cleaned for a while
               because I was worried about the pain and discomfort. But the team
-              at Dr. Smith's office was so gentle and gentle, I barely felt a
+              at Dr. Jo Ellen's office was so gentle and gentle, I barely felt a
               thing! They even gave me tips for how to take better care of my
               teeth at home. I left feeling confident and motivated to take
-              better care of my oral health. Thank you, Dr. Smith and team!
+              better care of my oral health. Thank you, Dr. Jo Ellen and team!
             </p>
           </div>
           <div className="w-4/7 pr-12 lg:w-2/5">

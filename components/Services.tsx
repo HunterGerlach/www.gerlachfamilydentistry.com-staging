@@ -22,7 +22,7 @@ export default function Services() {
                   lg:grid-cols-6"
           >
             {/* Block links of services that navigate to the corresponding service page */}
-            <div className="items-center justify-center lg:inline-block">
+            <div className="mb-20 items-center justify-center lg:inline-block">
               <Link
                 href="/"
                 className="
@@ -56,7 +56,7 @@ export default function Services() {
                 </div>
               </Link>
             </div>
-            <div className="items-center justify-center lg:inline-block">
+            <div className="mb-20 items-center justify-center lg:inline-block">
               <Link
                 href="/"
                 className="
@@ -89,7 +89,7 @@ export default function Services() {
                 </div>
               </Link>
             </div>
-            <div className="items-center justify-center lg:inline-block">
+            <div className="mb-20 items-center justify-center lg:inline-block">
               <Link
                 href="/"
                 className="
@@ -123,7 +123,7 @@ export default function Services() {
                 </div>
               </Link>
             </div>
-            <div className="items-center justify-center lg:inline-block">
+            <div className="mb-20 items-center justify-center lg:inline-block">
               <Link
                 href="/"
                 className="
@@ -156,7 +156,7 @@ export default function Services() {
                 </div>
               </Link>
             </div>
-            <div className="items-center justify-center lg:inline-block">
+            <div className="mb-20 items-center justify-center lg:inline-block">
               <Link
                 href="/"
                 className="
@@ -189,7 +189,7 @@ export default function Services() {
                 </div>
               </Link>
             </div>
-            <div className="items-center justify-center lg:inline-block">
+            <div className="mb-20 items-center justify-center lg:inline-block">
               <Link
                 href="/"
                 className="
