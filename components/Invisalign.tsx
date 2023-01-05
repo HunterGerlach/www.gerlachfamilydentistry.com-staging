@@ -1,35 +1,70 @@
 import Link from "next/link";
 
+import Image from "next/image";
+
 export default function Invisalign() {
   return (
     <div id="invisalign" className="mx-auto px-5 pt-32 pb-24 lg:px-24">
-      <div className="my-3 flex w-full flex-col text-left lg:text-center">
-        <h2 className="bold mb-8 text-4xl font-bold leading-tight text-black lg:text-6xl">
-          Lorem ipsum elit sit unar, <br className="hidden lg:inline-block" />
-          consectetur adipiscing elit.
-        </h2>
-      </div>
-      <div className="flex w-full flex-col text-left lg:text-center">
-        <h3 className="text-2xl text-black">
-          Lorem ipsum arcu, consectetur adipiscing elit. Viverra elementum
-          pellentesque <br className="hidden lg:inline-block" />
-          tortor, luctus blandit sed dolor et, semper. Posuere vitae vitae, ac
-          mus. Arcu quis feugiat.
-        </h3>
-      </div>
-      <div className="flex w-full flex-row justify-center pt-24 text-center">
-        <Link
-          href="/"
-          className="underline-blue px-8 text-xl font-semibold text-black"
-        >
-          Ut eleifend.
-        </Link>
-        <Link
-          href="/"
-          className="underline-gray px-6 text-xl font-semibold text-gray-700"
-        >
-          Tempus in.
-        </Link>
+      <div
+        className="
+              max-w-9xl
+              mx-auto
+              flex
+              flex-col
+              items-center
+              justify-center
+              px-5
+            "
+      >
+        <div className="mr-0 mb-6 w-full py-4 text-center lg:w-2/3">
+          <h2 className="mb-4 text-4xl font-bold sm:text-5xl">
+            Straighten Your Smile with Invisalign
+          </h2>
+          <p className="mb-4 text-lg leading-relaxed">
+            Looking for a discreet and comfortable way to straighten your teeth?
+            Invisalign may be the perfect solution for you! This modern
+            orthodontic treatment uses clear, removable aligners to gently shift
+            your teeth into place. No metal brackets or wires necessary!
+            Invisalign is a popular choice for adults and teenagers looking to
+            improve their smile without the hassle of traditional braces.
+            Contact our office to find out if Invisalign is right for you.
+          </p>
+          <Link href="/" className="underline-blue font-semibold">
+            Learn more
+          </Link>
+        </div>
+        <Image
+          className="
+                lg:w-5/7
+                mb-40
+                hidden
+                w-5/6
+                rounded object-cover
+                object-center
+                lg:inline-block 
+                lg:w-4/6
+              "
+          src="https://picsum.photos/648/480?"
+          alt="img"
+          width={648}
+          height={480}
+        />
+
+        <Image
+          className="
+              mb-24
+              inline-block
+              w-5/6
+              rounded
+              object-cover object-center
+              lg:hidden
+              lg:w-4/6 
+            "
+          src="https://picsum.photos/648/480?"
+          alt="img"
+          width={648}
+          height={480}
+        />
       </div>
     </div>
   );

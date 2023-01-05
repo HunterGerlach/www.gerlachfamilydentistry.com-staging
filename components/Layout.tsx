@@ -20,8 +20,6 @@ export default function Main() {
         <Reviews />
         <PatientResources />
         <Invisalign />
-        <hr className="border-gray-200" />
-        <Other />
       </section>
     </div>
   );
