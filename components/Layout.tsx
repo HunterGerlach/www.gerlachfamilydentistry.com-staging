@@ -4,11 +4,12 @@
 import Image from "next/image";
 
 import AboutUs from "./AboutUs";
-import ExistingPatients from "./ExistingPatients";
+import ExistingPatients from "./PatientResources";
 import Invisalign from "./Invisalign";
 import Other from "./Other";
 import Reviews from "./Reviews";
 import Services from "./Services";
+import PatientResources from "./PatientResources";
 
 export default function Main() {
   return (
@@ -17,7 +18,7 @@ export default function Main() {
         <AboutUs />
         <Services />
         <Reviews />
-        <ExistingPatients />
+        <PatientResources />
         <Invisalign />
         <hr className="border-gray-200" />
         <Other />

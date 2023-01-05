@@ -64,10 +64,10 @@ export default function NavBar() {
         </a>
         <a
           className="mt-2 inline-flex items-center px-4 py-3 text-lg font-semibold tracking-tighter text-black"
-          href="#existing-patients"
+          href="#patient-resources"
           onClick={smoothScroll}
         >
-          Existing Patients
+          Patient Resources
         </a>
         <a
           className="mt-2 inline-flex items-center px-4 py-3 text-lg font-semibold tracking-tighter text-black"
