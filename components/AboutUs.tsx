@@ -5,19 +5,19 @@ export default function AboutUs() {
   return (
     <div
       id="about-us"
-      className="max-w-8xl mx-auto inline-block items-center p-3 pt-0 lg:flex lg:flex-wrap lg:pt-4"
+      className="w-100 max-w-8xl mx-auto inline-block items-center mt-20 p-3 pt-0 lg:flex lg:flex-wrap pt-4"
     >
       <div className="w-full">
         {/* An image that floats to the right */}
         <Image
-          className="float-right ml-6 mb-6 lg:mb-0 lg:ml-0 lg:mr-6"
-          src="https://picsum.photos/648/480?"
+          className="float-right ml-6 mb-6 lg:mb-0 lg:ml-0 lg:mr-6 px-6"
+          src="/kid-at-dentist.jpg"
           alt="Hero"
-          width={648}
-          height={480}
+          width={486}
+          height={360}
         />
         {/* Text that wraps around the image */}
-        <h2 className="flex max-w-xl lg:text-[4.2em] text-3xl font-bold leading-none text-black inline-block">
+        <h2 className="max-w-lg lg:flex lg:text-[4.2em] text-3xl font-bold leading-none text-black lg:inline-block">
           Brighten Your Smile and Strengthen Your Family&apos;s Oral Health
         </h2>
         <p className="mt-6 text-xl font-semibold text-[#404040]">

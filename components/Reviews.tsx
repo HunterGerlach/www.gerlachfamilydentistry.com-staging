@@ -21,13 +21,13 @@ export default function Reviews() {
         </h3>
       </div>
       <div className="my-24 p-4 text-black">
-        <div className="max-w-9xl mx-auto flex flex-col items-center bg-gradient-to-r from-blue-200 to-blue-100 px-5 py-24 lg:flex-row">
+        <div className="max-w-9xl mx-auto flex flex-col items-center bg-gradient-to-b lg:bg-gradient-to-r from-pink-900 to-pink-700 px-5 py-24 lg:flex-row">
           <div className="flex flex-col items-center pb-16 pl-0 text-center lg:mb-0 lg:w-1/2 lg:flex-grow lg:items-start lg:pl-12 lg:pr-24 lg:text-left">
-            <h2 className="pb-4 text-2xl font-bold leading-tight lg:text-4xl">
+            <h2 className="text-white pb-4 text-2xl font-bold leading-tight lg:text-4xl">
               &quot;I am always blown away by the level of care and attention I
               receive.&quot;
             </h2>
-            <p className="text-md mb-8 lg:text-xl">
+            <p className="text-white text-md mb-8 lg:text-xl">
               I have been going to Dr. Gerlach&apos;s office for years, and I am
               always blown away by the level of care and attention I receive.
               From the moment I walk in the door, I feel welcomed and valued.
@@ -38,14 +38,14 @@ export default function Reviews() {
           </div>
           <div className="w-4/7 pr-12 lg:w-2/5">
             <Image
-              src="https://picsum.photos/648/480?"
+              src="/reviews/review1.jpg"
               className="hidden object-cover object-center lg:inline-block"
               alt="image"
               width={648}
               height={480}
             />
             <Image
-              src="https://picsum.photos/648/480?"
+              src="/reviews/review1.jpg"
               className="inline-block object-cover object-center lg:hidden"
               alt="image"
               width={648}
@@ -58,7 +58,7 @@ export default function Reviews() {
         <div className="mx-auto flex flex-col px-5 py-24 text-left lg:flex-row">
           <div className="hidden lg:inline-block lg:w-full lg:max-w-xl">
             <Image
-              src="https://picsum.photos/648/480?"
+              src="/reviews/review2.jpg"
               alt="img"
               width={648}
               height={480}
@@ -81,7 +81,7 @@ export default function Reviews() {
           </div>
           <div className="inline-block lg:hidden lg:w-full lg:max-w-xl">
             <Image
-              src="https://picsum.photos/648/480?"
+              src="/reviews/review2.jpg"
               alt="img"
               width={648}
               height={480}
@@ -90,13 +90,13 @@ export default function Reviews() {
         </div>
       </div>
       <div className="my-24 p-4 text-black">
-        <div className="max-w-9xl mx-auto flex flex-col items-center bg-gradient-to-r from-blue-200 to-blue-100 px-5 py-24 lg:flex-row">
+        <div className="max-w-9xl mx-auto flex flex-col items-center bg-gradient-to-b lg:bg-gradient-to-r from-cyan-700 to-cyan-400 px-5 py-24 lg:flex-row">
           <div className="flex flex-col items-center pb-16 pl-0 text-center lg:mb-0 lg:w-1/2 lg:flex-grow lg:items-start lg:pl-12 lg:pr-24 lg:text-left">
-            <h2 className="pb-4 text-2xl font-bold leading-tight lg:text-4xl">
+            <h2 className="text-white pb-4 text-2xl font-bold leading-tight lg:text-4xl">
               &quot;I barely felt a thing! They even gave me tips for how to
               take better care of my teeth at home.&quot;
             </h2>
-            <p className="text-md mb-8 lg:text-xl">
+            <p className="text-white text-md mb-8 lg:text-xl">
               I had been putting off getting my teeth cleaned for a while
               because I was worried about the pain and discomfort. But the team
               at Dr. Jo Ellen&apos;s office was so gentle and gentle, I barely
@@ -108,14 +108,14 @@ export default function Reviews() {
           </div>
           <div className="w-4/7 pr-12 lg:w-2/5">
             <Image
-              src="https://picsum.photos/648/480?"
+              src="/reviews/review3.jpg"
               className="hidden object-cover object-center lg:inline-block"
               alt="image"
               width={648}
               height={480}
             />
             <Image
-              src="https://picsum.photos/648/480?"
+              src="/reviews/review3.jpg"
               className="inline-block object-cover object-center lg:hidden"
               alt="image"
               width={648}

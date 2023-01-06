@@ -7,10 +7,11 @@ export default function Services() {
       <div className="mx-auto">
         <div className="mx-auto px-5 py-24 lg:px-24">
           <div className="my-10 flex w-full flex-col text-center">
-            <h2 className="mb-5 text-2xl font-bold text-black lg:text-3xl">
-              We offer a range of services to meet the unique needs of every
-              member of your family, from routine cleanings to more complex
-              dental work.
+            <h2 className="mb-5 text-2xl font-bold text-black lg:text-4xl">
+              We offer a range of{" "}
+              <span className="underline-blue">services</span> to meet the
+              unique needs of every member of your family, from routine
+              cleanings to more complex dental work.
             </h2>
           </div>
           <div
@@ -29,7 +30,7 @@ export default function Services() {
                   "
               >
                 <Image
-                  src="https://picsum.photos/648/480?"
+                  src="/services/cleanings-and-exams.jpg"
                   alt="Segment"
                   className="block h-24 object-contain"
                   width={648}
@@ -63,7 +64,41 @@ export default function Services() {
                   "
               >
                 <Image
-                  src="https://picsum.photos/648/480?"
+                  src="/services/cosmetic-dentistry.jpg"
+                  alt="Segment"
+                  className="block h-24 object-contain"
+                  width={648}
+                  height={480}
+                />
+                {/* Name of the service */}
+                <div
+                  className="my-4 flex w-full flex-col text-center
+                        underline-purple
+                        mb-8
+                        mt-6
+                        text-xl
+                        font-bold
+                        text-black"
+                >
+                  Cosmetic Dentistry
+                </div>
+                {/* Description of the service. Hiddnen by default. */}
+                <div className="">
+                  Cosmetic dentistry is a type of dental treatment that is
+                  focused on improving the appearance of the teeth and smile.
+                  This can include procedures such as teeth whitening, veneers,
+                  and bonding.
+                </div>
+              </Link>
+            </div>
+            <div className="mb-20 items-center justify-center lg:inline-block">
+              <Link
+                href="/"
+                className="
+                  "
+              >
+                <Image
+                  src="/services/fillings.jpg"
                   alt="Segment"
                   className="block h-24 object-contain"
                   width={648}
@@ -96,7 +131,7 @@ export default function Services() {
                   "
               >
                 <Image
-                  src="https://picsum.photos/648/480?"
+                  src="/services/crowns.jpg"
                   alt="Segment"
                   className="block h-24 object-contain"
                   width={648}
@@ -105,7 +140,7 @@ export default function Services() {
                 {/* Name of the service */}
                 <div
                   className="my-4 flex w-full flex-col text-center
-                        underline-blue
+                        underline-purple
                         mb-8
                         mt-6
                         text-xl
@@ -130,7 +165,7 @@ export default function Services() {
                   "
               >
                 <Image
-                  src="https://picsum.photos/648/480?"
+                  src="/services/bridges.jpg"
                   alt="Segment"
                   className="block h-24 object-contain"
                   width={648}
@@ -163,7 +198,7 @@ export default function Services() {
                   "
               >
                 <Image
-                  src="https://picsum.photos/648/480?"
+                  src="/services/orthodontics.jpg"
                   alt="Segment"
                   className="block h-24 object-contain"
                   width={648}
@@ -172,7 +207,7 @@ export default function Services() {
                 {/* Name of the service */}
                 <div
                   className="my-4 flex w-full flex-col text-center
-                        underline-blue
+                        underline-purple
                         mb-8
                         mt-6
                         text-xl
@@ -186,40 +221,6 @@ export default function Services() {
                   Orthodontic treatment is used to correct misaligned teeth and
                   jaws. This can be done using braces or other appliances, such
                   as clear aligners.
-                </div>
-              </Link>
-            </div>
-            <div className="mb-20 items-center justify-center lg:inline-block">
-              <Link
-                href="/"
-                className="
-                  "
-              >
-                <Image
-                  src="https://picsum.photos/648/480?"
-                  alt="Segment"
-                  className="block h-24 object-contain"
-                  width={648}
-                  height={480}
-                />
-                {/* Name of the service */}
-                <div
-                  className="my-4 flex w-full flex-col text-center
-                        underline-blue
-                        mb-8
-                        mt-6
-                        text-xl
-                        font-bold
-                        text-black"
-                >
-                  Cosmetic Dentistry
-                </div>
-                {/* Description of the service. Hiddnen by default. */}
-                <div className="">
-                  Cosmetic dentistry is a type of dental treatment that is
-                  focused on improving the appearance of the teeth and smile.
-                  This can include procedures such as teeth whitening, veneers,
-                  and bonding.
                 </div>
               </Link>
             </div>

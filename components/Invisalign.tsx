@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function Invisalign() {
   return (
-    <div id="invisalign" className="mx-auto px-5 pt-32 pb-24 lg:px-24">
+    <div id="invisalign" className="mx-auto px-5 pt-32 pb-4 lg:px-24">
       <div
         className="
               max-w-9xl
@@ -29,7 +29,12 @@ export default function Invisalign() {
             improve their smile without the hassle of traditional braces.
             Contact our office to find out if Invisalign is right for you.
           </p>
-          <Link href="/" className="underline-blue font-semibold">
+          <Link
+            target="_blank"
+            rel="noreferrer"
+            href="https://www.invisalign.com/how-invisalign-works"
+            className="underline-blue font-semibold"
+          >
             Learn more
           </Link>
         </div>
@@ -44,7 +49,7 @@ export default function Invisalign() {
                 lg:inline-block 
                 lg:w-4/6
               "
-          src="https://picsum.photos/648/480?"
+          src="/services/invisalign.jpg"
           alt="img"
           width={648}
           height={480}
@@ -60,7 +65,7 @@ export default function Invisalign() {
               lg:hidden
               lg:w-4/6 
             "
-          src="https://picsum.photos/648/480?"
+          src="/services/invisalign.jpg"
           alt="img"
           width={648}
           height={480}
