@@ -16,6 +16,8 @@ export default function NavBar() {
     const targetId = e.target.getAttribute("href");
     const targetElement = document.querySelector(targetId);
     targetElement?.scrollIntoView({ behavior: "smooth", block: "start" });
+    // URL should update accordingly
+    window.history.pushState("", "", targetId);
   };
 
   return (

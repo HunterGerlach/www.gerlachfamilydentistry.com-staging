@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/no-html-link-for-pages */
 
 import { useEffect, useState } from "react";
+import Image from "next/image";
 
 export default function Footer() {
   // A list of jokes to display in the footer
@@ -17,12 +18,61 @@ export default function Footer() {
   const [joke, setJoke] = useState("Hello world!");
   useEffect(() => setJoke(jokes[Math.floor(Math.random() * jokes.length)]), []);
 
+  // a script that smooth scrolls to the section of the page that is clicked on in the navbar
+  const smoothScroll = (e: any) => {
+    e.preventDefault();
+    const targetId = e.target.getAttribute("href");
+    const targetElement = document.querySelector(targetId);
+    targetElement?.scrollIntoView({ behavior: "smooth", block: "start" });
+    // URL should update accordingly
+    window.history.pushState("", "", targetId);
+  };
+
   return (
     <>
       <footer id="contact-us" className="grotesk bg-[#f9fbfb]">
         <div className="max-w-8xl mx-auto px-5 py-24 text-black">
           <div className="order-first flex flex-wrap text-left">
-            <div className="w-full px-4 md:w-2/4 lg:w-1/5">
+            {/* A block of two office location descriptions with accompanying images */}
+            <div className="location w-full px-4 md:w-2/4 lg:w-1/4">
+              <h2 className="mb-3 text-lg tracking-widest underline-purple">
+                Locations
+              </h2>
+              <nav className="list-none space-y-2 py-3">
+                <li>
+                  <div className="flex flex-row">
+                    <div className="flex flex-col mb-6">
+                      <h3 className="text-sm font-semibold mb-2">
+                        Middletown/East Louisville
+                      </h3>
+                      <a href="tel:502-244-0333">(502) 244-0333</a>
+                      <address className="text-xs text-gray-500 my-2">
+                        11900 Shelbyville Road
+                        <br />
+                        Louisville, KY 40243
+                      </address>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div className="flex flex-row">
+                    <div className="flex flex-col mb-6">
+                      <h3 className="text-sm font-semibold mb-2">
+                        Woodlawn/South Louisville
+                      </h3>
+                      <a href="tel:502-368-5529">(502) 368-5529</a>
+                      <address className="text-xs text-gray-500 my-2">
+                        210 W Woodlawn Ave
+                        <br />
+                        Louisville, KY 40214
+                      </address>
+                    </div>
+                  </div>
+                </li>
+              </nav>
+            </div>
+
+            {/*<div className="w-full px-4 md:w-2/4 lg:w-1/5">
               <h2 className="mb-3 text-lg tracking-widest">Est.</h2>
               <nav className="list-none space-y-2 py-3">
                 <li>
@@ -67,42 +117,86 @@ export default function Footer() {
                   <a href="/">Purus</a>
                 </li>
               </nav>
-            </div>
-            <div className="w-full px-4 md:w-2/4 lg:w-1/5">
-              <h2 className="mb-3 text-lg tracking-widest">Placerat.</h2>
-              <nav className="mb-10 list-none space-y-2 py-3">
+  </div>*/}
+
+            <div className="w-full px-4 md:w-2/4 lg:w-1/4">
+              <h2 className="mb-3 text-lg tracking-widest underline-blue">
+                Site Map
+              </h2>
+              <nav className="mb-10 list-none space-y-2 py-3 list-disc">
                 <li>
-                  <a href="/">Et cursus fringilla.</a>
+                  <a href="#top" onClick={smoothScroll}>
+                    ^Top^
+                  </a>
                 </li>
                 <li>
-                  <a href="/">In velit sagittis.</a>
+                  <a href="#about-us" onClick={smoothScroll}>
+                    About Us
+                  </a>
                 </li>
                 <li>
-                  <a href="/">Mattis.</a>
+                  <a href="#services" onClick={smoothScroll}>
+                    Services
+                  </a>
                 </li>
                 <li>
-                  <a href="/">Est.</a>
+                  <a href="#reviews" onClick={smoothScroll}>
+                    Reviews
+                  </a>
+                </li>
+                <li>
+                  <a href="#patient-resources" onClick={smoothScroll}>
+                    Patient Resources
+                  </a>
+                </li>
+                <li>
+                  <a href="#invisalign" onClick={smoothScroll}>
+                    Invisalign
+                  </a>
+                </li>
+                <li>
+                  <a href="#contact-us" onClick={smoothScroll}>
+                    Contact
+                  </a>
                 </li>
               </nav>
             </div>
-            <div className="w-full px-4 md:w-2/4 lg:w-1/5">
-              <h2 className="mb-3 text-lg tracking-widest">Messa.</h2>
+            <div className="w-full px-4 md:w-2/4 lg:w-1/4">
+              <h2 className="mb-3 text-lg tracking-widest underline-purple">
+                Follow Us!
+              </h2>
               <nav className="mb-10 list-none space-y-2 py-3">
                 <li>
-                  <a href="/">Id.</a>
+                  <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://www.facebook.com/GerlachFamilyDentistry"
+                  >
+                    Facebook
+                  </a>
                 </li>
                 <li>
-                  <a href="/">Aliquam.</a>
+                  {/* open in new tab */}
+                  <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://www.instagram.com/gerlach_family_dentistry"
+                  >
+                    Instagram
+                  </a>
                 </li>
                 <li>
-                  <a href="/">Interdum.</a>
-                </li>
-                <li>
-                  <a href="/">Risus.</a>
+                  <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://twitter.com/GerlachFamDent"
+                  >
+                    Twitter
+                  </a>
                 </li>
               </nav>
             </div>
-            <div className="w-full md:w-2/4 lg:w-1/5">
+            <div className="w-full md:w-2/4 lg:w-1/4">
               <a href="/">
                 <div className="relative border border-black transition hover:border-gray-500">
                   <div className="absolute top-0 right-0 pt-2 pr-2">

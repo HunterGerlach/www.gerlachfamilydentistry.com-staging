@@ -8,8 +8,8 @@ export default function Hero() {
     <div id="hero" className="relative bg-[#f9fbfb]">
       <div className="absolute inset-0">
         <Image
-          className="w-full h-full object-cover"
-          src="https://picsum.photos/648/480?"
+          className="w-full h-full object-cover object-center"
+          src="/full_gerlach_family.jpg"
           alt=""
           width={648}
           height={480}

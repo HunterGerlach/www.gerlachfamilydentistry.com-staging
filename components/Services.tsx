@@ -7,10 +7,11 @@ export default function Services() {
       <div className="mx-auto">
         <div className="mx-auto px-5 py-24 lg:px-24">
           <div className="my-10 flex w-full flex-col text-center">
-            <h2 className="mb-5 text-2xl font-bold text-black lg:text-3xl">
-              We offer a range of services to meet the unique needs of every
-              member of your family, from routine cleanings to more complex
-              dental work.
+            <h2 className="mb-5 text-2xl font-bold text-black lg:text-4xl">
+              We offer a range of{" "}
+              <span className="underline-blue">services</span> to meet the
+              unique needs of every member of your family, from routine
+              cleanings to more complex dental work.
             </h2>
           </div>
           <div

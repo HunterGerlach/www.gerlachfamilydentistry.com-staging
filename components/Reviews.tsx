@@ -38,14 +38,14 @@ export default function Reviews() {
           </div>
           <div className="w-4/7 pr-12 lg:w-2/5">
             <Image
-              src="https://picsum.photos/648/480?"
+              src="/reviews/review1.jpg"
               className="hidden object-cover object-center lg:inline-block"
               alt="image"
               width={648}
               height={480}
             />
             <Image
-              src="https://picsum.photos/648/480?"
+              src="/reviews/review1.jpg"
               className="inline-block object-cover object-center lg:hidden"
               alt="image"
               width={648}
@@ -58,7 +58,7 @@ export default function Reviews() {
         <div className="mx-auto flex flex-col px-5 py-24 text-left lg:flex-row">
           <div className="hidden lg:inline-block lg:w-full lg:max-w-xl">
             <Image
-              src="https://picsum.photos/648/480?"
+              src="/reviews/review2.jpg"
               alt="img"
               width={648}
               height={480}
@@ -81,7 +81,7 @@ export default function Reviews() {
           </div>
           <div className="inline-block lg:hidden lg:w-full lg:max-w-xl">
             <Image
-              src="https://picsum.photos/648/480?"
+              src="/reviews/review2.jpg"
               alt="img"
               width={648}
               height={480}
@@ -108,14 +108,14 @@ export default function Reviews() {
           </div>
           <div className="w-4/7 pr-12 lg:w-2/5">
             <Image
-              src="https://picsum.photos/648/480?"
+              src="/reviews/review3.jpg"
               className="hidden object-cover object-center lg:inline-block"
               alt="image"
               width={648}
               height={480}
             />
             <Image
-              src="https://picsum.photos/648/480?"
+              src="/reviews/review3.jpg"
               className="inline-block object-cover object-center lg:hidden"
               alt="image"
               width={648}
