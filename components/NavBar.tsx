@@ -1,6 +1,7 @@
 // A react component that displays a navbar at the top of the page
 
 import Link from "next/link";
+import Image from "next/image";
 
 export default function NavBar() {
   // a script to toggle the hamburger menu links both on and off when the hamburger button is pressed; hamburger button should remain visible when the menu is toggled on
@@ -35,7 +36,13 @@ export default function NavBar() {
       {/* Navbar logo */}
       <div className="w-full text-center align-right block items-center xl:block mt-4 inline-block align-middle xl:inline-block">
         <Link href="/" className="align-middle text-3xl font-bold text-black">
-          Gerlach Family Dentistry
+          <Image
+            className="mx-auto"
+            src="/gfd_logo-300x91.png"
+            alt="Gerlach Family Dentistry logo"
+            width={300}
+            height={91}
+          />
         </Link>
       </div>
 
@@ -77,7 +84,7 @@ export default function NavBar() {
           Invisalign
         </a>
         <a
-          className="bg-blue mt-2 inline-flex items-center px-8 py-3 text-lg font-semibold tracking-tighter text-white"
+          className="bg-purple mt-2 inline-flex items-center px-8 py-3 text-lg font-semibold tracking-tighter text-white"
           href="#contact-us"
           onClick={smoothScroll}
         >

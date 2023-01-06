@@ -126,11 +126,11 @@ body {
 }
 
 .bg-purple {
-  background-color: #1b263a;
+  background-color: #8c0340;
 }
 
 .bg-blue {
-  background-color: #134ae9;
+  background-color: #0d75a0;
 }
 
 .bg-gray {
@@ -155,7 +155,7 @@ body {
 
 .underline-blue {
   text-decoration: underline;
-  text-decoration-color: #134ae9;
+  text-decoration-color: #0d75a0;
   text-decoration-thickness: 2px;
   text-underline-position: under;
 }
@@ -174,6 +174,13 @@ body {
   text-underline-position: under;
 }
 
+.underline-purple {
+  text-decoration: underline;
+  text-decoration-color: #8c0340;
+  text-decoration-thickness: 2px;
+  text-underline-position: under;
+}
+
 .max-w-8xl {
   max-width: 90rem;
 }
@@ -184,18 +191,28 @@ body {
 
 .inline-dentist {
   font-weight: bold;
-  color: #0066cc;
+  color: #0d75a0;
   padding: 0.5em;
 }
 
 .inline-dentist:hover {
+  color: #8c0340;
   background-color: #e6f2ff;
   cursor: pointer;
+}
+
+.signature {
+  font-weight: bold;
+  color: #0d75a0;
+  padding: 0.5em;
+  border-radius: 0.5em;
+  float: right;
 }
 
 .sig1 {
   font-family: "Shadows Into Light", cursive;
   font-size: 1.5em;
+  color: #8c0340;
 }
 
 .sig2 {
@@ -206,14 +223,6 @@ body {
 .sig3 {
   font-family: "Rock Salt", cursive;
   font-size: 1em;
-}
-
-.signature {
-  font-weight: bold;
-  color: #0066cc;
-  padding: 0.5em;
-  border-radius: 0.5em;
-  float: right;
 }
 
 @tailwind base;

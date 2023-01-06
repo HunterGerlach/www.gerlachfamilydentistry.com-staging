@@ -72,7 +72,7 @@ export default function Services() {
                 {/* Name of the service */}
                 <div
                   className="my-4 flex w-full flex-col text-center
-                        underline-blue
+                        underline-purple
                         mb-8
                         mt-6
                         text-xl
@@ -139,7 +139,7 @@ export default function Services() {
                 {/* Name of the service */}
                 <div
                   className="my-4 flex w-full flex-col text-center
-                        underline-blue
+                        underline-purple
                         mb-8
                         mt-6
                         text-xl
@@ -205,7 +205,7 @@ export default function Services() {
                 {/* Name of the service */}
                 <div
                   className="my-4 flex w-full flex-col text-center
-                        underline-blue
+                        underline-purple
                         mb-8
                         mt-6
                         text-xl

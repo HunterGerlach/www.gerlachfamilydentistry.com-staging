@@ -31,7 +31,7 @@ export default function PatientResources() {
         </Link>
         <Link
           href="/"
-          className="underline-gray px-6 text-xl font-semibold text-gray-700"
+          className="underline-purple px-6 text-xl font-semibold text-gray-700"
         >
           Existing Patient Forms
         </Link>
