@@ -1,6 +1,22 @@
 /* eslint-disable @next/next/no-html-link-for-pages */
 
+import { useEffect, useState } from "react";
+
 export default function Footer() {
+  // A list of jokes to display in the footer
+  const jokes = [
+    "What award did the dentist win? 🦷 A little plaque.",
+    "What do dentists call the x-rays they take of patients' teeth? 🦷 Tooth pics.",
+    "What did the dentist say to the tooth when he had to leave the room? 🦷 I'll fill you in when I get back.",
+    "Which teeth do you need to brush? 🦷 The ones you want to keep.",
+    "If a kid has 25 candy bars and they eat 22 of them, what do they have? 🦷 Cavities.",
+    "What did the dentist say when Tiger Woods came in for an appointment? 🦷 You have a hole in one.",
+    "What do you call a dentist who works in a shoe store? 🦷 A foot doctor.",
+  ];
+
+  const [joke, setJoke] = useState("Hello world!");
+  useEffect(() => setJoke(jokes[Math.floor(Math.random() * jokes.length)]), []);
+
   return (
     <>
       <footer id="contact-us" className="grotesk bg-[#f9fbfb]">
@@ -118,13 +134,13 @@ export default function Footer() {
         </div>
         <div className="px-2">
           <div className="max-w-8xl mx-auto px-5 py-6">
-            <h2 className="text-black">Diam egestas ultrices odio vitae.</h2>
-            <div>
+            <h2 className="text-black">
+              Copyright &copy; 1982-2023 - Gerlach Family Dentistry, PLLC
+            </h2>
+            <div className="bg-gradient-to-r from-cyan-700 to-cyan-400 text-white">
               <h2 className="my-4 text-sm">
-                Lorem ipsum accumsan arcu, consectetur adipiscing elit. Dolor
-                proin tempor sed fermentum sit{" "}
-                <br className="hidden lg:inline-block" /> pretium pellentesque.
-                Dictumst risus elementum dignissim risus, lobortis molestie.
+                {/* A random joke from jokes variable */}
+                🪥 {joke} 😂
               </h2>
             </div>
             <div className="absolute right-0 -mt-24 hidden text-black lg:inline-block">
