@@ -5,7 +5,7 @@ export default function AboutUs() {
   return (
     <div
       id="about-us"
-      className="max-w-8xl mx-auto inline-block items-center p-3 pt-0 lg:flex lg:flex-wrap lg:pt-4"
+      className="w-100 max-w-8xl mx-auto inline-block items-center p-3 pt-0 lg:flex lg:flex-wrap pt-4"
     >
       <div className="w-full">
         {/* An image that floats to the right */}
@@ -17,7 +17,7 @@ export default function AboutUs() {
           height={480}
         />
         {/* Text that wraps around the image */}
-        <h2 className="flex max-w-xl lg:text-[4.2em] text-3xl font-bold leading-none text-black inline-block">
+        <h2 className="max-w-lg lg:flex lg:text-[4.2em] text-3xl font-bold leading-none text-black lg:inline-block">
           Brighten Your Smile and Strengthen Your Family&apos;s Oral Health
         </h2>
         <p className="mt-6 text-xl font-semibold text-[#404040]">
