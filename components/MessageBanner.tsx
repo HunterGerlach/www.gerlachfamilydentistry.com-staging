@@ -11,6 +11,12 @@ interface Props {
 
 /* define the component */
 export default function MessageBanner(props: Props) {
+  // a script that unhides a div that contains information about teeth called "tooth-info"
+  const showToothInfo = () => {
+    // the div that contains the information about teeth should bounce into place when the tooth icon is clicked
+    const toothInfo = document.querySelector(".tooth-info");
+    toothInfo?.classList.toggle("hidden");
+  };
   const { id, type, message, link, linkText } = props;
 
   // Script to close the MessageBanner component when the x button is clicked based on the key prop passed in
@@ -38,7 +44,7 @@ export default function MessageBanner(props: Props) {
       {message}
 
       {link && linkText && (
-        <a href={link} className="pl-3 underline">
+        <a onClick={showToothInfo} className="pl-3 underline">
           {linkText}
         </a>
       )}

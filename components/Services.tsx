@@ -25,7 +25,7 @@ export default function Services() {
             {/* Block links of services that navigate to the corresponding service page */}
             <div className="mb-20 items-center justify-center lg:inline-block">
               <Link
-                href="/"
+                href="#services"
                 className="
                   "
               >
@@ -59,7 +59,7 @@ export default function Services() {
             </div>
             <div className="mb-20 items-center justify-center lg:inline-block">
               <Link
-                href="/"
+                href="#services"
                 className="
                   "
               >
@@ -93,7 +93,7 @@ export default function Services() {
             </div>
             <div className="mb-20 items-center justify-center lg:inline-block">
               <Link
-                href="/"
+                href="#services"
                 className="
                   "
               >
@@ -126,7 +126,7 @@ export default function Services() {
             </div>
             <div className="mb-20 items-center justify-center lg:inline-block">
               <Link
-                href="/"
+                href="#services"
                 className="
                   "
               >
@@ -160,7 +160,7 @@ export default function Services() {
             </div>
             <div className="mb-20 items-center justify-center lg:inline-block">
               <Link
-                href="/"
+                href="#services"
                 className="
                   "
               >
@@ -193,7 +193,7 @@ export default function Services() {
             </div>
             <div className="mb-20 items-center justify-center lg:inline-block">
               <Link
-                href="/"
+                href="#services"
                 className="
                   "
               >
@@ -225,9 +225,9 @@ export default function Services() {
               </Link>
             </div>
           </div>
-          <div className="my-12 flex w-full flex-col pl-8 text-center">
+          {/* <div className="my-12 flex w-full flex-col pl-8 text-center">
             <Link
-              href="/"
+              href="#services"
               className="
                     underline-blue
                     mb-8
@@ -239,7 +239,7 @@ export default function Services() {
             >
               Explore more...
             </Link>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

@@ -40,6 +40,113 @@ The `pages/api` directory is mapped to `/api/*`. Files in this directory are tre
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
+## Dev Loops
+
+### Inner Loop
+
+The inner loop is the development loop that you run on your local machine. It consists of the following steps:
+
+1. Clone the repository
+2. Checkout a new branch for your changes
+3. Install dependencies
+4. Make changes to the code
+5. Run the application locally
+6. Test/Review the application locally
+7. Iterate on steps 4-6 until you are satisfied with the changes
+8. Commit your changes
+9. Push your changes to the remote repository
+10. Create a pull request to merge your changes into the `main` branch
+
+### Outer Loop
+
+The outer loop is the deployment loop that runs automatically when you push your changes to the remote repository. It consists of the following steps:
+
+1. GitHub Actions workflow is triggered by a push to the `main` branch
+2. The workflow installs dependencies
+3. The workflow builds the application
+4. The workflow deploys the application to the staging environment
+
+### Cutting a Release
+
+The release loop is the deployment loop that runs when you create a new release of the application. This is usually done after reviewing the application in the staging environment with the customer. It consists of the following steps:
+
+1. Create a new release of the application in the staging repository
+2. Tag the release with the desired version number
+3. GitHub Actions workflow is triggered by the creation of the release
+4. The workflow installs dependencies in the production repository
+5. The workflow builds the application in the production repository
+6. The workflow deploys the application to the production environment
+
+### Rollback Loop
+
+The rollback loop is the deployment loop that runs when you need to rollback a release of the application. It consists of the following steps:
+
+1. Create a new release of the application in the staging repository referencing the previous version
+2. Tag the release with the desired version number
+3. GitHub Actions workflow is triggered by the creation of the release
+4. The workflow installs dependencies in the production repository
+5. The workflow builds the application in the production repository
+6. The workflow deploys the application to the production environment
+
+### Hotfix Loop
+
+The hotfix loop is the deployment loop that runs when you need to deploy a hotfix to the production environment. It consists of the following steps:
+
+1. Create a new hotfix branch from the `main` branch in the staging repository
+2. Checkout the hotfix branch
+3. Make the necessary changes to the code
+4. Commit the changes
+5. Push the changes to the remote repository
+6. Create a pull request to merge the changes into the `main` branch
+7. Merge the pull request into the `main` branch
+8. Create a new release of the application in the staging repository referencing the previous version
+9. Tag the release with the desired version number
+10. GitHub Actions workflow is triggered by the creation of the release
+11. The workflow installs dependencies in the production repository
+12. The workflow builds the application in the production repository
+13. The workflow deploys the application to the production environment
+14. Merge the hotfix branch into existing feature branches as necessary
+
+### Mermaid Diagram Describing Dev Loops
+
+```mermaid
+graph TD
+  %% Inner Loop
+  subgraph "Inner Loop"
+    A[Clone Repo] --> B[Checkout Branch]
+    B --> C[Install Dependencies]
+    C --> D[Make Changes]
+    D --> E[Run Locally]
+    E --> F[Test Locally]
+    F --> G{Satisfied?}
+    G -->|Yes| H[Commit Changes]
+    G -->|No| D
+    H --> I[Push Changes]
+    I --> J[Create PR]
+  end
+
+  %% Outer Loop with Release Loop
+  subgraph "Outer Loop"
+    K[GitHub Actions on main] --> L[Install Dependencies]
+    L --> M[Build App]
+    M --> N[Deploy to Staging]
+
+    subgraph "Cutting a Release"
+      O{Review with Customer; Accepted?} -->|Yes| P[Create New Release]
+      P --> Q[Tag Release]
+      Q --> R[GitHub Actions on Release]
+      R --> S[Install Prod Dependencies]
+      S --> T[Build Prod App]
+      T --> U[Deploy to Prod]
+    end
+  end
+
+  %% Transitions between loops
+  J -.-> K
+  N -.-> O
+  O -.-> |No|D
+```
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
