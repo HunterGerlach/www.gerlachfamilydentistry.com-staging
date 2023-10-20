@@ -2,8 +2,15 @@
 
 import { useEffect, useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Footer() {
+  // a script that unhides a div that contains information about teeth called "tooth-info"
+  const showToothInfo = () => {
+    // the div that contains the information about teeth should bounce into place when the tooth icon is clicked
+    const toothInfo = document.querySelector(".tooth-info");
+    toothInfo?.classList.toggle("hidden");
+  };
   // A list of jokes to display in the footer
   const jokes = [
     "What award did the dentist win? 🦷 A little plaque.",
@@ -51,6 +58,14 @@ export default function Footer() {
                         <br />
                         Louisville, KY 40243
                       </address>
+                      <Link
+                        href="https://www.google.com/maps/dir/?api=1&destination=11900+Shelbyville+Rd,+Louisville,+KY+40243"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        Get Directions <span className="text-2xl">&rarr;</span>
+                        📍
+                      </Link>
                     </div>
                   </div>
                 </li>
@@ -66,6 +81,14 @@ export default function Footer() {
                         <br />
                         Louisville, KY 40214
                       </address>
+                      <Link
+                        href="https://www.google.com/maps/dir/?api=1&destination=210+W+Woodlawn+Ave,+Louisville,+KY+40214"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        Get Directions <span className="text-2xl">&rarr;</span>
+                        📍
+                      </Link>
                     </div>
                   </div>
                 </li>
@@ -197,7 +220,7 @@ export default function Footer() {
               </nav>
             </div>
             <div className="w-full md:w-2/4 lg:w-1/4">
-              <a href="/">
+              <a onClick={showToothInfo} className="">
                 <div className="relative border border-black transition hover:border-gray-500">
                   <div className="absolute top-0 right-0 pt-2 pr-2">
                     <svg
@@ -217,10 +240,7 @@ export default function Footer() {
                       />
                     </svg>
                   </div>
-                  <div className="p-6">
-                    Lorem ipsum accumsan arcu, consectetur adipiscing elit.
-                    Consequat arcu.
-                  </div>
+                  <div className="p-6">Book your appointment today!</div>
                 </div>
               </a>
             </div>
@@ -238,26 +258,15 @@ export default function Footer() {
               </h2>
             </div>
             <div className="absolute right-0 -mt-24 hidden text-black lg:inline-block">
-              <a href="/" className="mr-16">
+              <Link href="terms" className="mr-16">
                 Terms & Conditions
-              </a>
-              <a href="/" className="mr-16">
+              </Link>
+              <Link href="privacy" className="mr-16">
                 Privacy Policy
-              </a>
-              <a href="/" className="mr-16">
+              </Link>
+              <Link href="cookies" className="mr-16">
                 Cookie Policy
-              </a>
-            </div>
-            <div className="right-0 inline-block pt-12 pb-6 pr-20 text-sm text-black md:hidden">
-              <a href="/" className="mr-16">
-                Terms & Conditions
-              </a>
-              <a href="/" className="mr-16">
-                Privacy Policy
-              </a>
-              <a href="/" className="mr-16">
-                Cookie Policy
-              </a>
+              </Link>
             </div>
           </div>
         </div>

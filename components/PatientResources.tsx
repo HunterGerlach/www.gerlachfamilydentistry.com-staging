@@ -24,16 +24,22 @@ export default function PatientResources() {
       </div>
       <div className="flex w-full flex-row justify-center pt-24 text-center">
         <Link
-          href="/"
+          href="forms/form_new-patient.pdf"
           className="underline-blue px-8 text-xl font-semibold text-black"
         >
-          New Patient Forms
+          New Patient Form
         </Link>
         <Link
-          href="/"
-          className="underline-purple px-6 text-xl font-semibold text-gray-700"
+          href="forms/form_privacy-notice.pdf"
+          className="underline-purple px-8 text-xl font-semibold text-black"
         >
-          Existing Patient Forms
+          Privacy Notice Form
+        </Link>
+        <Link
+          href="forms/form_privacy-acknowledgement.pdf"
+          className="underline-blue px-8 text-xl font-semibold text-black"
+        >
+          Privacy Acknowledgement Form
         </Link>
       </div>
     </div>

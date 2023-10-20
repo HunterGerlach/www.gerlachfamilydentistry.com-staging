@@ -35,7 +35,7 @@ export default function Invisalign() {
             href="https://www.invisalign.com/how-invisalign-works"
             className="underline-blue font-semibold"
           >
-            Learn more
+            Learn more <span className="text-2xl">&rarr;</span>
           </Link>
         </div>
         <Image
