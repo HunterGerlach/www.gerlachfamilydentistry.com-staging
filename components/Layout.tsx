@@ -44,7 +44,7 @@ export default function Main() {
           </div>
           {/* Headline */}
           <h1 className="text-2xl font-bold text-center">
-            Your Family%apos;s Smile Matters to Us
+            Your Family&apos;s Smile Matters to Us
           </h1>
           {/* Content */}
           <div className={styles["popup-content"]}>
@@ -58,8 +58,8 @@ export default function Main() {
             {/* List of reasons why patients love us with tooth emojis as bullet points */}
             <ul>
               <li>
-                <strong>🦷 Personal Care:</strong> You%apos;re more than just a
-                patient to us—you%apos;re family.
+                <strong>🦷 Personal Care:</strong> You&apos;re more than just a
+                patient to us—you&apos;re family.
               </li>
               <li>
                 <strong>🦷 Experienced Staff:</strong> Our dentists and
