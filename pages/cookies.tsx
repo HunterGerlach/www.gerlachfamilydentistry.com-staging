@@ -39,8 +39,8 @@ export default function Home() {
               What are cookies?
             </h2>
             <p>
-              Cookies are small files that are stored on a user's computer. They
-              are designed to hold a modest amount of data specific to a
+              Cookies are small files that are stored on a user%apos;s computer.
+              They are designed to hold a modest amount of data specific to a
               particular client and website, and can be accessed either by the
               web server or the client computer.
             </p>
