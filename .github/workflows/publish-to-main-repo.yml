@@ -37,7 +37,7 @@ jobs:
         with:
           source-directory: 'output'
           destination-github-username: 'HunterGerlach'
-          destination-repository-name: 'multi-stage-deployment-example-nextjs-github-pages-production'
+          destination-repository-name: 'www.gerlachfamilydentistry.com-production'
           user-email: hunter@huntergerlach.com
           target-branch: main
 
@@ -47,7 +47,7 @@ jobs:
 #     steps:
 #       - uses: actions/checkout@v2
 #         with:
-#           repository: HunterGerlach/nextjs-github-pages-multi-envs-prod
+#           repository: HunterGerlach/www.gerlachfamilydentistry.com-production
 #           path: ./
 #           token: ${{ secrets.REPO_TOKEN }}
 
